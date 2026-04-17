@@ -1,0 +1,1384 @@
+{
+  "meta": {
+    "ano": 2026,
+    "descricao": "Calendário consolidado de feriados nacionais, estaduais e forenses dos Tribunais Brasileiros para 2026",
+    "fonte": "Portarias, Resoluções e Atos Presidenciais dos respectivos Tribunais publicados em 2025/2026",
+    "observacao": "Feriados municipais listados apenas para comarcas/varas expressamente indicadas nos atos normativos. Consulte sempre o Tribunal competente para informações atualizadas."
+  },
+
+  "feriados_nacionais": [
+    { "data": "2026-01-01", "descricao": "Confraternização Universal (Ano Novo)", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949, art. 1º" },
+    { "data": "2026-02-16", "descricao": "Carnaval (segunda-feira)", "tipo": "feriado_forense", "lei": "Lei nº 5.010/1966, art. 62, III" },
+    { "data": "2026-02-17", "descricao": "Carnaval (terça-feira)", "tipo": "feriado_forense", "lei": "Lei nº 5.010/1966, art. 62, III" },
+    { "data": "2026-04-03", "descricao": "Sexta-Feira da Paixão (Paixão de Cristo)", "tipo": "feriado_nacional", "lei": "Lei nº 5.010/1966, art. 62, II" },
+    { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949 c/ Lei nº 10.607/2002" },
+    { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949 c/ Lei nº 10.607/2002" },
+    { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado_nacional_movel", "lei": "Lei nº 9.093/1995, art. 2º" },
+    { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos no Brasil (Dia do Advogado / Magistrado)", "tipo": "feriado_forense", "lei": "Lei nº 5.010/1966, art. 62, IV c/ Lei nº 6.741/1979" },
+    { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949 c/ Lei nº 10.607/2002" },
+    { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida – Padroeira do Brasil", "tipo": "feriado_nacional", "lei": "Lei nº 6.802/1980" },
+    { "data": "2026-10-28", "descricao": "Dia do Servidor Público (transferido para 30/10 na maioria dos tribunais)", "tipo": "ponto_facultativo", "lei": "Lei nº 8.112/1990, art. 236" },
+    { "data": "2026-11-01", "descricao": "Dia de Todos os Santos", "tipo": "feriado_forense", "lei": "Lei nº 5.010/1966, art. 62, IV" },
+    { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado_nacional", "lei": "Lei nº 5.010/1966, art. 62, IV c/ Lei nº 662/1949" },
+    { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949 c/ Lei nº 10.607/2002" },
+    { "data": "2026-11-20", "descricao": "Dia Nacional de Zumbi e da Consciência Negra", "tipo": "feriado_nacional", "lei": "Lei nº 14.759/2023" },
+    { "data": "2026-12-08", "descricao": "Dia da Justiça / Nossa Senhora da Conceição", "tipo": "feriado_forense", "lei": "Lei nº 5.010/1966, art. 62, IV c/ Lei nº 6.741/1979" },
+    { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado_nacional", "lei": "Lei nº 662/1949" }
+  ],
+
+  "recesso_forense_geral": {
+    "periodo_inicio": "2026-12-20",
+    "periodo_fim": "2027-01-06",
+    "descricao": "Recesso Forense de fim de ano (Justiça Federal e Tribunais Superiores)",
+    "lei": "Lei nº 5.010/1966, art. 62, I",
+    "nota": "Tribunais Estaduais podem adotar período distinto conforme Resolução CNJ nº 244/2016"
+  },
+
+  "pontos_facultativos_comuns": [
+    { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo", "nota": "Alguns tribunais suspendem expediente parcial (até 13h ou 14h)" },
+    { "data": "2026-04-01", "descricao": "Quarta-feira Santa (Semana Santa)", "tipo": "ponto_facultativo", "lei": "Lei nº 5.010/1966, art. 62, II" },
+    { "data": "2026-04-02", "descricao": "Quinta-feira Santa (Semana Santa)", "tipo": "ponto_facultativo" },
+    { "data": "2026-04-20", "descricao": "Segunda-feira após Tiradentes (véspera)", "tipo": "ponto_facultativo", "nota": "Adotado pela maioria dos tribunais" },
+    { "data": "2026-06-05", "descricao": "Sexta-feira após Corpus Christi (emenda)", "tipo": "ponto_facultativo" },
+    { "data": "2026-08-10", "descricao": "Segunda-feira anterior ao Dia do Advogado (11/08)", "tipo": "ponto_facultativo" },
+    { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido do dia 28/10)", "tipo": "ponto_facultativo", "lei": "Lei nº 8.112/1990, art. 236" },
+    { "data": "2026-12-07", "descricao": "Segunda-feira anterior ao Dia da Justiça (emenda)", "tipo": "ponto_facultativo" }
+  ],
+
+  "tribunais_superiores": {
+    "STF": {
+      "nome": "Supremo Tribunal Federal",
+      "ato_normativo": "Portaria GDG nº 189/2025",
+      "ferias_coletivas": { "inicio": "2026-01-02", "fim": "2026-01-31" },
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-31" },
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo_ate_14h" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo (véspera Tiradentes)", "tipo": "ponto_facultativo" }
+      ]
+    },
+    "STJ": {
+      "nome": "Superior Tribunal de Justiça",
+      "ato_normativo": "Portaria STJ/GDG nº 1.010/2025",
+      "ferias_coletivas": { "inicio": "2026-01-02", "fim": "2026-01-31" },
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-31" },
+      "calendario_sessoes_2026": {
+        "fevereiro": ["03/02", "10/02", "17/02", "24/02"],
+        "marco": ["03/03", "10/03", "17/03"],
+        "abril": ["07/04", "14/04"],
+        "maio": ["05/05", "12/05", "19/05"],
+        "junho": ["02/06", "09/06", "16/06"],
+        "julho": ["01/07"],
+        "agosto": ["04/08", "18/08"],
+        "setembro": ["01/09", "08/09", "15/09"],
+        "outubro": ["06/10", "13/10", "20/10"],
+        "novembro": ["03/11", "10/11", "17/11"],
+        "dezembro": ["01/12", "15/12"]
+      },
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo_ate_14h" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" }
+      ]
+    },
+    "STM": {
+      "nome": "Superior Tribunal Militar",
+      "ferias_coletivas": { "inicio": "2026-01-02", "fim": "2026-01-31", "base_legal": "Resolução STM nº 311/2022" },
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" }
+      ]
+    },
+    "TST": {
+      "nome": "Tribunal Superior do Trabalho",
+      "ato_normativo": "Ato Conjunto TST.CSJT.GP nº 61/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-04", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" }
+      ]
+    },
+    "TSE": {
+      "nome": "Tribunal Superior Eleitoral",
+      "ato_normativo": "Portaria TSE nº 261/2025",
+      "feriados_especificos": [
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    }
+  },
+
+  "tribunais_regionais_federais": {
+    "TRF1": {
+      "nome": "Tribunal Regional Federal da 1ª Região",
+      "jurisdicao": "DF, AC, AM, AP, BA, GO, MA, MG, MT, PA, PI, RO, RR, TO",
+      "ato_normativo": "Portaria PRESI nº 5/2026",
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-06" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo_ate_14h" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público", "tipo": "ponto_facultativo" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" }
+      ]
+    },
+    "TRF2": {
+      "nome": "Tribunal Regional Federal da 2ª Região",
+      "jurisdicao": "RJ, ES",
+      "ato_normativo": "Portaria PRES/TRF2 nº 844/2025 e nº 845/2025",
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-06" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-13", "descricao": "Nossa Senhora da Penha – Padroeira do ES (subseção Vitória e Cachoeiro)", "tipo": "feriado_estadual" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado" }
+      ],
+      "feriados_municipais": {
+        "Vitoria_ES": [{ "data": "2026-09-08", "descricao": "Nossa Senhora da Vitória – Padroeira Municipal", "tipo": "feriado_municipal" }],
+        "Cachoeiro_de_Itapemirim_ES": [{ "data": "2026-06-29", "descricao": "São Pedro – Padroeiro", "tipo": "feriado_municipal" }],
+        "Colatina_ES": [{ "data": "2026-06-12", "descricao": "Sagrado Coração de Jesus", "tipo": "feriado_municipal" }],
+        "Sao_Mateus_ES": [{ "data": "2026-09-21", "descricao": "Dia da Cidade de São Mateus", "tipo": "feriado_municipal" }],
+        "Serra_ES": [{ "data": "2026-06-29", "descricao": "São Pedro", "tipo": "feriado_municipal" }]
+      }
+    },
+    "TRF3": {
+      "nome": "Tribunal Regional Federal da 3ª Região",
+      "jurisdicao": "SP, MS",
+      "ato_normativo": "Portaria CATRF3R nº 48/2025",
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-06" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-25", "descricao": "Aniversário de São Paulo", "tipo": "feriado_municipal_SP" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (expediente a partir das 14h)", "tipo": "expediente_parcial" },
+        { "data": "2026-04-01", "descricao": "Feriado Legal (Semana Santa)", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Feriado Legal (Semana Santa)", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente (emenda Tiradentes)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo (emenda Corpus Christi)", "tipo": "ponto_facultativo" },
+        { "data": "2026-07-09", "descricao": "Revolução Constitucionalista de SP", "tipo": "feriado_estadual_SP" },
+        { "data": "2026-08-11", "descricao": "Feriado Legal (Cursos Jurídicos)", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-24", "descricao": "Feriado Legal (véspera Natal)", "tipo": "feriado" },
+        { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado" },
+        { "data": "2026-12-31", "descricao": "Feriado Legal (véspera Ano Novo)", "tipo": "feriado" }
+      ]
+    },
+    "TRF4": {
+      "nome": "Tribunal Regional Federal da 4ª Região",
+      "jurisdicao": "RS, SC, PR",
+      "ato_normativo": "Portaria nº 1064/2022",
+      "nota": "Calendário consolidado de feriados locais disponível no Portal da JF da 4ª Região",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (expediente das 13h às 19h)", "tipo": "expediente_parcial" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRF5": {
+      "nome": "Tribunal Regional Federal da 5ª Região",
+      "jurisdicao": "AL, CE, PB, PE, RN, SE",
+      "ato_normativo": "Ato nº 626/2025",
+      "recesso": { "inicio": "2026-12-20", "fim": "2026-12-31" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-03-06", "descricao": "Data Magna de Pernambuco", "tipo": "feriado_estadual_PE" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "ponto_facultativo" },
+        { "data": "2026-06-23", "descricao": "Véspera de São João (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-06-24", "descricao": "São João (Recife – Lei Municipal nº 9.777/67)", "tipo": "feriado_municipal" },
+        { "data": "2026-07-16", "descricao": "Nossa Senhora do Carmo – Recife (Lei Municipal nº 9.777/67)", "tipo": "feriado_municipal" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-11-01", "descricao": "Dia de Todos os Santos", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" }
+      ]
+    },
+    "TRF6": {
+      "nome": "Tribunal Regional Federal da 6ª Região",
+      "jurisdicao": "MG",
+      "ato_normativo": "Portaria Presi nº 1/2026 e Portaria Presi nº 107/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo até 14h)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    }
+  },
+
+  "tribunais_regionais_do_trabalho": {
+    "TRT1": {
+      "nome": "Tribunal Regional do Trabalho da 1ª Região",
+      "jurisdicao": "RJ",
+      "ato_normativo": "Ato nº 109/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Trabalho à distância / sem atendimento presencial", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-04-23", "descricao": "São Jorge – RJ (Lei Estadual nº 5.198/2008)", "tipo": "feriado_estadual" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Trabalho à distância", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-10", "descricao": "Trabalho à distância", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-11", "descricao": "Instituição dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Trabalho à distância", "tipo": "suspensao_expediente" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT2": {
+      "nome": "Tribunal Regional do Trabalho da 2ª Região",
+      "jurisdicao": "SP (Grande São Paulo e interior)",
+      "ato_normativo": "Portaria n. 50/GP, de 2 de outubro de 2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT3": {
+      "nome": "Tribunal Regional do Trabalho da 3ª Região",
+      "jurisdicao": "MG",
+      "ato_normativo": "Resolução Administrativa nº 109/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão de expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT4": {
+      "nome": "Tribunal Regional do Trabalho da 4ª Região",
+      "jurisdicao": "RS",
+      "ato_normativo": "Portaria nº 08, de 08 de julho de 2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Dia do Magistrado e do Advogado", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-09-20", "descricao": "Revolução Farroupilha – RS (Decreto Estadual nº 36.180/1995)", "tipo": "feriado_estadual" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público", "tipo": "feriado" },
+        { "data": "2026-11-01", "descricao": "Dia de Todos os Santos", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT5": {
+      "nome": "Tribunal Regional do Trabalho da 5ª Região",
+      "jurisdicao": "BA",
+      "ato_normativo": "Resolução Administrativa TRT5 nº 037/2025",
+      "feriados_toda_regiao": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-23", "descricao": "Véspera de São João", "tipo": "feriado_estadual_BA" },
+        { "data": "2026-06-24", "descricao": "São João", "tipo": "feriado_estadual_BA" },
+        { "data": "2026-07-02", "descricao": "Independência da Bahia", "tipo": "feriado_estadual_BA" },
+        { "data": "2026-08-11", "descricao": "Dia do Magistrado", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia dos Servidores Públicos", "tipo": "feriado" },
+        { "data": "2026-11-01", "descricao": "Todos os Santos", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Padroeira do Estado da Bahia / Feriado Forense", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT6": {
+      "nome": "Tribunal Regional do Trabalho da 6ª Região",
+      "jurisdicao": "PE",
+      "ato_normativo": "Portaria TRT6-GP nº 495/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-03-06", "descricao": "Data Magna do Estado de Pernambuco", "tipo": "feriado_estadual_PE" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-23", "descricao": "Corpus Christi (adiamento)", "tipo": "feriado" },
+        { "data": "2026-06-24", "descricao": "São João – Feriado Estadual PE / Regimental", "tipo": "feriado_estadual_PE" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT7": {
+      "nome": "Tribunal Regional do Trabalho da 7ª Região",
+      "jurisdicao": "CE",
+      "ato_normativo": "Portaria TRT7.GP nº 518/2025 (alterada pela Portaria TRT7.GP nº 64/2026)",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "suspensao_expediente" },
+        { "data": "2026-03-25", "descricao": "Data Magna do Ceará", "tipo": "feriado_estadual_CE" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-10", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-11", "descricao": "Dia da Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido do dia 28/10)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ],
+      "feriados_municipais": {
+        "Aracati": [
+          { "data": "2026-01-20", "descricao": "São Sebastião", "tipo": "feriado_municipal" },
+          { "data": "2026-10-07", "descricao": "Nossa Senhora do Rosário", "tipo": "feriado_municipal" }
+        ],
+        "Quixada": [
+          { "data": "2026-02-11", "descricao": "Padroeira do Município", "tipo": "feriado_municipal" },
+          { "data": "2026-10-27", "descricao": "Dia do Município", "tipo": "feriado_municipal" }
+        ],
+        "Fortaleza": [
+          { "data": "2026-03-19", "descricao": "São José", "tipo": "feriado_municipal" }
+        ],
+        "Juazeiro_do_Norte": [
+          { "data": "2026-03-24", "descricao": "Aniversário de Padre Cícero", "tipo": "feriado_municipal" },
+          { "data": "2026-07-22", "descricao": "Dia do Município", "tipo": "feriado_municipal" },
+          { "data": "2026-09-15", "descricao": "Nossa Senhora das Dores", "tipo": "feriado_municipal" }
+        ],
+        "Crateús": [{ "data": "2026-07-06", "descricao": "Emancipação do Município", "tipo": "feriado_municipal" }],
+        "Tianguá": [
+          { "data": "2026-07-31", "descricao": "Dia do Município", "tipo": "feriado_municipal" }
+        ],
+        "Caucaia": [
+          { "data": "2026-10-15", "descricao": "Dia do Município", "tipo": "feriado_municipal" }
+        ],
+        "Sao_Goncalo_do_Amarante": [{ "data": "2026-11-27", "descricao": "Dia do Município", "tipo": "feriado_municipal" }],
+        "Limoeiro_do_Norte": [{ "data": "2026-12-08", "descricao": "Imaculada Conceição", "tipo": "feriado_municipal" }]
+      }
+    },
+    "TRT8": {
+      "nome": "Tribunal Regional do Trabalho da 8ª Região",
+      "jurisdicao": "PA, AP",
+      "ato_normativo": "Portaria PRESI nº 1.200/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT9": {
+      "nome": "Tribunal Regional do Trabalho da 9ª Região",
+      "jurisdicao": "PR",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT10": {
+      "nome": "Tribunal Regional do Trabalho da 10ª Região",
+      "jurisdicao": "DF, TO",
+      "ato_normativo": "Resolução Administrativa nº 54/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT11": {
+      "nome": "Tribunal Regional do Trabalho da 11ª Região",
+      "jurisdicao": "AM, RR",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT12": {
+      "nome": "Tribunal Regional do Trabalho da 12ª Região",
+      "jurisdicao": "SC",
+      "ato_normativo": "Portaria Seap nº 191/2024",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT13": {
+      "nome": "Tribunal Regional do Trabalho da 13ª Região",
+      "jurisdicao": "PB",
+      "ato_normativo": "Ato TRT13-SGP nº 181/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT14": {
+      "nome": "Tribunal Regional do Trabalho da 14ª Região",
+      "jurisdicao": "RO, AC",
+      "ato_normativo": "Portaria nº 1640/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT15": {
+      "nome": "Tribunal Regional do Trabalho da 15ª Região",
+      "jurisdicao": "SP (interior - Campinas)",
+      "ato_normativo": "Portaria GP-CR nº 16/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-07-09", "descricao": "Revolução Constitucionalista – SP (transferido para 10/07)", "tipo": "feriado_estadual_SP" },
+        { "data": "2026-08-10", "descricao": "Suspensão de expediente (Dia da Instalação dos Cursos – transferido)", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Suspensão de expediente (Padroeira/véspera Dia da Justiça)", "tipo": "suspensao_expediente" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça / Padroeira", "tipo": "feriado" },
+        { "data": "2026-12-21", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-25", "descricao": "Natal / Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT16": {
+      "nome": "Tribunal Regional do Trabalho da 16ª Região",
+      "jurisdicao": "MA",
+      "ato_normativo": "Portaria GP/TRT16 nº 681/2025",
+      "feriados_toda_regiao": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Quarta-feira da Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Quinta-feira da Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-feira da Paixão", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-07-27", "descricao": "Adesão do Maranhão à Independência do Brasil (transferência de feriado)", "tipo": "feriado_estadual_MA" },
+        { "data": "2026-08-10", "descricao": "Criação dos Cursos Jurídicos no Brasil (transferência)", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferência)", "tipo": "feriado" },
+        { "data": "2026-11-01", "descricao": "Todos os Santos", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-08", "descricao": "Nossa Senhora da Conceição / Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-25", "descricao": "Natal / Recesso", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT17": {
+      "nome": "Tribunal Regional do Trabalho da 17ª Região",
+      "jurisdicao": "ES",
+      "ato_normativo": "Ato Presi Secor nº 44/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado_nacional" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado_forense" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-13", "descricao": "Nossa Senhora da Penha – Padroeira do ES (Lei Estadual 3599/1983 e 11.010/2019)", "tipo": "feriado_religioso_estadual" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado_nacional" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado_religioso" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado_forense" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado_nacional" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado_nacional" },
+        { "data": "2026-10-28", "descricao": "Dia do Funcionário Público (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-11-01", "descricao": "Todos os Santos", "tipo": "feriado_forense" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado_forense" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado_nacional" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado_forense" },
+        { "data": "2026-12-20", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso", "tipo": "recesso" }
+      ],
+      "feriados_municipais": {
+        "Vitoria_e_Varas_VT": [{ "data": "2026-09-08", "descricao": "Nossa Senhora da Vitória (Lei Municipal 1732/1967)", "tipo": "feriado_municipal" }],
+        "Aracruz": [
+          { "data": "2026-04-03", "descricao": "Emancipação Política (Lei Municipal 3658/2013)", "tipo": "feriado_municipal" },
+          { "data": "2026-06-24", "descricao": "São João Batista – Padroeiro (Lei Municipal 3658/2013)", "tipo": "feriado_municipal" }
+        ],
+        "Cachoeiro_de_Itapemirim": [
+          { "data": "2026-04-13", "descricao": "Nossa Senhora da Penha (Lei Municipal 6174/2008)", "tipo": "feriado_municipal" },
+          { "data": "2026-06-29", "descricao": "São Pedro – Padroeiro (Lei Municipal 1125/1967)", "tipo": "feriado_municipal" }
+        ],
+        "Colatina": [
+          { "data": "2026-06-12", "descricao": "Sagrado Coração de Jesus (Lei Municipal 3336/1988)", "tipo": "feriado_municipal" },
+          { "data": "2026-08-22", "descricao": "Fundação do Município (Lei Municipal 3336/1988)", "tipo": "feriado_municipal" }
+        ],
+        "Guarapari": [
+          { "data": "2026-06-29", "descricao": "São Pedro (Lei Municipal 2806/2007)", "tipo": "feriado_municipal" },
+          { "data": "2026-09-19", "descricao": "Fundação do Município (Lei Municipal 2806/2007)", "tipo": "feriado_municipal" },
+          { "data": "2026-11-20", "descricao": "Consciência Negra (Lei Municipal 2806/2007)", "tipo": "feriado_municipal" },
+          { "data": "2026-12-08", "descricao": "Nossa Senhora da Conceição (Lei Municipal 2806/2007)", "tipo": "feriado_municipal" }
+        ],
+        "Linhares": [
+          { "data": "2026-08-22", "descricao": "Fundação do Município (Lei Municipal 1602/1992)", "tipo": "feriado_municipal" },
+          { "data": "2026-12-08", "descricao": "Nossa Senhora da Conceição – Padroeira (Lei Municipal 1602/1992)", "tipo": "feriado_municipal" }
+        ],
+        "Nova_Venecia": [
+          { "data": "2026-01-26", "descricao": "Emancipação Política (Lei Municipal 3110/2011)", "tipo": "feriado_municipal" },
+          { "data": "2026-04-25", "descricao": "São Marcos – Padroeiro (Lei Municipal 3110/2011)", "tipo": "feriado_municipal" },
+          { "data": "2026-10-31", "descricao": "Dia do Evangélico Veneciano (Lei Municipal 3222/2013)", "tipo": "feriado_municipal" }
+        ],
+        "Sao_Mateus": [
+          { "data": "2026-09-21", "descricao": "Fundação do Município (Lei Municipal 01/1990)", "tipo": "feriado_municipal" },
+          { "data": "2026-12-27", "descricao": "São Benedito – Padroeiro (Lei Municipal 01/1990)", "tipo": "feriado_municipal" }
+        ],
+        "Venda_Nova_do_Imigrante": [
+          { "data": "2026-05-10", "descricao": "Emancipação Política (Lei Municipal 4069/1988)", "tipo": "feriado_municipal" },
+          { "data": "2026-06-29", "descricao": "São Pedro (Lei nº 1.439/2021)", "tipo": "feriado_municipal" }
+        ]
+      }
+    },
+    "TRT18": {
+      "nome": "Tribunal Regional do Trabalho da 18ª Região",
+      "jurisdicao": "GO",
+      "ato_normativo": "Portaria TRT 18ª nº 2329/2025",
+      "suspensoes_por_conveniencia": [
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-20", "descricao": "Segunda-feira (emenda Tiradentes)", "tipo": "suspensao_expediente" },
+        { "data": "2026-06-05", "descricao": "Sexta-feira (emenda Corpus Christi)", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-10", "descricao": "Segunda-feira (emenda Dia do Magistrado/Advogado)", "tipo": "suspensao_expediente" },
+        { "data": "2026-12-07", "descricao": "Segunda-feira (emenda Dia da Justiça)", "tipo": "suspensao_expediente" }
+      ]
+    },
+    "TRT19": {
+      "nome": "Tribunal Regional do Trabalho da 19ª Região",
+      "jurisdicao": "AL",
+      "ato_normativo": "Ato nº 170/GP/TRT 19ª, de 29 de setembro de 2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado_nacional" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-18", "descricao": "Cinzas", "tipo": "feriado_forense" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado_nacional" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado_nacional" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado_nacional" },
+        { "data": "2026-09-16", "descricao": "Emancipação Política do Estado de Alagoas", "tipo": "feriado_estadual_AL" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado_nacional" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido de 28/10)", "tipo": "ponto_facultativo" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado_nacional" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado_nacional" },
+        { "data": "2026-12-07", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-08", "descricao": "Nossa Senhora da Conceição / Dia da Justiça", "tipo": "feriado_forense" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado_nacional" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT20": {
+      "nome": "Tribunal Regional do Trabalho da 20ª Região",
+      "jurisdicao": "SE",
+      "feriados_toda_regiao": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-06-24", "descricao": "São João – Feriado Estadual SE", "tipo": "feriado_estadual_SE" },
+        { "data": "2026-07-08", "descricao": "Independência de Sergipe", "tipo": "feriado_estadual_SE" },
+        { "data": "2026-08-10", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-11", "descricao": "Dia do Magistrado", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TRT21": {
+      "nome": "Tribunal Regional do Trabalho da 21ª Região",
+      "jurisdicao": "RN",
+      "ato_normativo": "Ato Conjunto TRT21-GP/CR nº 17/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT22": {
+      "nome": "Tribunal Regional do Trabalho da 22ª Região",
+      "jurisdicao": "PI",
+      "ato_normativo": "Ato GP nº 184/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT23": {
+      "nome": "Tribunal Regional do Trabalho da 23ª Região",
+      "jurisdicao": "MT",
+      "ato_normativo": "Portaria Conjunta TRT Correg GP nº 28/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TRT24": {
+      "nome": "Tribunal Regional do Trabalho da 24ª Região",
+      "jurisdicao": "MS",
+      "ato_normativo": "Portaria TRT/GP/SGJ nº 051/2025",
+      "feriados_toda_regiao": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado_forense" },
+        { "data": "2026-02-18", "descricao": "Suspensão do expediente até as 13h (Quarta-Feira de Cinzas)", "tipo": "suspensao_expediente_parcial" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado_forense" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalhador", "tipo": "feriado_nacional" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Suspensão expediente (emenda Corpus Christi)", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-10", "descricao": "Suspensão expediente (emenda Dia do Advogado/Magistrado)", "tipo": "suspensao_expediente" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado_forense" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado_nacional" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado_nacional" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido de 28/10)", "tipo": "feriado_nacional" },
+        { "data": "2026-11-01", "descricao": "Todos os Santos", "tipo": "feriado_forense" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado_nacional" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado_nacional" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado_nacional" },
+        { "data": "2026-12-07", "descricao": "Suspensão expediente (emenda Dia da Justiça)", "tipo": "suspensao_expediente" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado_forense" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ],
+      "feriados_municipais": {
+        "Corumba": [{ "data": "2026-02-02", "descricao": "Padroeiro da cidade (Lei Municipal 2.985/2025)", "tipo": "feriado_municipal" }],
+        "Cassilandia": [{ "data": "2026-03-19", "descricao": "Padroeira da cidade (Lei Municipal 56/1961)", "tipo": "feriado_municipal" }],
+        "Coxim": [
+          { "data": "2026-03-19", "descricao": "Padroeiro da cidade (Lei Municipal 712/1993)", "tipo": "feriado_municipal" },
+          { "data": "2026-04-11", "descricao": "Aniversário da cidade (Lei Municipal 216/1997)", "tipo": "feriado_municipal" }
+        ],
+        "Ponta_Pora": [{ "data": "2026-03-19", "descricao": "Padroeiro da cidade (Lei Municipal 3.153/2000)", "tipo": "feriado_municipal" }],
+        "Nova_Andradina": [{ "data": "2026-04-30", "descricao": "Aniversário da cidade (Lei Municipal 670/2007)", "tipo": "feriado_municipal" }],
+        "Sao_Gabriel_do_Oeste": [
+          { "data": "2026-05-12", "descricao": "Aniversário da cidade (Lei Municipal 273/1994)", "tipo": "feriado_municipal" },
+          { "data": "2026-09-29", "descricao": "Padroeira da cidade (Lei Municipal 273/1994)", "tipo": "feriado_municipal" }
+        ],
+        "Mundo_Novo": [
+          { "data": "2026-05-13", "descricao": "Aniversário da cidade (Lei Municipal 1.236/2021)", "tipo": "feriado_municipal" },
+          { "data": "2026-11-27", "descricao": "Padroeira da cidade (Lei Municipal 970/2014)", "tipo": "feriado_municipal" }
+        ],
+        "Dourados": [
+          { "data": "2026-12-08", "descricao": "Padroeiro da cidade (Lei Municipal 662/1967)", "tipo": "feriado_municipal" },
+          { "data": "2026-12-20", "descricao": "Aniversário da cidade (Lei Municipal 662/1967)", "tipo": "feriado_municipal" }
+        ],
+        "Amambai": [{ "data": "2026-09-28", "descricao": "Aniversário da cidade (Lei Municipal 694/1973)", "tipo": "feriado_municipal" }]
+      }
+    }
+  },
+
+  "tribunais_de_justica": {
+    "TJAC": {
+      "nome": "Tribunal de Justiça do Acre",
+      "ato_normativo": "Portaria nº 6569/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJAL": {
+      "nome": "Tribunal de Justiça de Alagoas",
+      "ato_normativo": "Ato nº 170/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Feriado", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJAP": {
+      "nome": "Tribunal de Justiça do Amapá",
+      "ato_normativo": "Portaria nº 75661/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJAM": {
+      "nome": "Tribunal de Justiça do Amazonas",
+      "ato_normativo": "Portaria nº 4704/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (feriado)", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJBA": {
+      "nome": "Tribunal de Justiça da Bahia",
+      "ato_normativo": "Decreto Judiciário nº 1050/2025",
+      "recesso": { "inicio": "2025-12-20", "fim": "2026-01-06" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-02", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-01-06", "descricao": "Recesso", "tipo": "recesso" },
+        { "data": "2026-02-12", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-13", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Endoenças (Quinta-feira Santa)", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Tiradentes (emenda)", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-07-02", "descricao": "Independência da Bahia (feriado estadual)", "tipo": "feriado_estadual_BA" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Padroeira do Estado da Bahia", "tipo": "feriado_estadual_BA" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-31", "descricao": "Recesso Forense", "tipo": "recesso" }
+      ]
+    },
+    "TJCE": {
+      "nome": "Tribunal de Justiça do Ceará",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Semana Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJDFT": {
+      "nome": "Tribunal de Justiça do Distrito Federal e Territórios",
+      "ato_normativo": "Portaria Conjunta 105/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJES": {
+      "nome": "Tribunal de Justiça do Espírito Santo",
+      "ato_normativo": "Ato Normativo nº 319/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJGO": {
+      "nome": "Tribunal de Justiça de Goiás",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (feriado até as 12h)", "tipo": "feriado_ate_12h" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJMA": {
+      "nome": "Tribunal de Justiça do Maranhão",
+      "ato_normativo": "Resolução-GP n° 131/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (expediente a partir das 13h)", "tipo": "expediente_parcial" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJMT": {
+      "nome": "Tribunal de Justiça de Mato Grosso",
+      "ato_normativo": "Portaria TJMT/PRES nº 1.915/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Semana Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJMS": {
+      "nome": "Tribunal de Justiça de Mato Grosso do Sul",
+      "ato_normativo": "Decreto Estadual nº 46/2025 (Gov. MS) / Portaria nº 983/2025 (TJMS)",
+      "feriados_especificos": [
+        { "data": "2026-01-02", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo até 13h)", "tipo": "ponto_facultativo_ate_13h" },
+        { "data": "2026-04-02", "descricao": "Ponto Facultativo (Semana Santa)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado_nacional" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-10-11", "descricao": "Criação do Estado do MS (feriado estadual)", "tipo": "feriado_estadual_MS" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-24", "descricao": "Véspera do Natal (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-31", "descricao": "Véspera de Ano Novo (ponto facultativo)", "tipo": "ponto_facultativo" }
+      ]
+    },
+    "TJMG": {
+      "nome": "Tribunal de Justiça de Minas Gerais",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJPA": {
+      "nome": "Tribunal de Justiça do Pará",
+      "ato_normativo": "Portaria nº 4765/2025-GP",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJPB": {
+      "nome": "Tribunal de Justiça da Paraíba",
+      "ato_normativo": "Ato Conjunto TJPB/PGJPB/DPGPB nº 04/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-11", "descricao": "Horário reduzido (7h às 13h) – véspera Carnaval capital", "tipo": "expediente_parcial" },
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-01", "descricao": "Semana Santa (horário reduzido 7h–13h)", "tipo": "expediente_parcial" },
+        { "data": "2026-04-02", "descricao": "Semana Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira da Paixão (feriado)", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo compensado", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalhador", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-06-24", "descricao": "São João (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-05", "descricao": "Fundação do Estado da Paraíba – Data Magna (Lei Estadual 10.601/2015)", "tipo": "feriado_estadual_PB" },
+        { "data": "2026-08-11", "descricao": "Fundação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-28", "descricao": "Dia do Servidor Público", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Ponto Facultativo compensado", "tipo": "ponto_facultativo" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" }
+      ]
+    },
+    "TJPR": {
+      "nome": "Tribunal de Justiça do Paraná",
+      "ato_normativo": "Decreto Judiciário nº 621/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-02-16", "descricao": "Véspera do Carnaval (suspensão com compensação)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Quinta-feira Santa (suspensão com compensação)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa (Paixão de Cristo)", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente (com compensação)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Suspensão de expediente (com compensação)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Funcionário Público (transferido de 28/10)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-18", "descricao": "Dia da Justiça (transferido de 08/12)", "tipo": "feriado" },
+        { "data": "2026-12-24", "descricao": "Véspera de Natal (suspensão)", "tipo": "suspensao_expediente" },
+        { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado" },
+        { "data": "2026-12-31", "descricao": "Véspera de Ano Novo (suspensão)", "tipo": "suspensao_expediente" }
+      ]
+    },
+    "TJPE": {
+      "nome": "Tribunal de Justiça de Pernambuco",
+      "ato_normativo": "Ato Conjunto nº 43/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-02-16", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-03-06", "descricao": "Data Magna de Pernambuco (Lei nº 16.241/2017)", "tipo": "feriado_estadual_PE" },
+        { "data": "2026-04-02", "descricao": "Semana Santa – Quinta-feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa – Sexta-Feira da Paixão", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-22", "descricao": "Corpus Christi – transferido para segunda-feira", "tipo": "feriado" },
+        { "data": "2026-06-24", "descricao": "São João", "tipo": "feriado" },
+        { "data": "2026-08-10", "descricao": "Suspensão de expediente (emenda Cursos Jurídicos)", "tipo": "suspensao_expediente" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça", "tipo": "feriado" }
+      ]
+    },
+    "TJPI": {
+      "nome": "Tribunal de Justiça do Piauí",
+      "ato_normativo": "Provimento nº 59/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-04", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJRJ": {
+      "nome": "Tribunal de Justiça do Rio de Janeiro",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJRN": {
+      "nome": "Tribunal de Justiça do Rio Grande do Norte",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJRS": {
+      "nome": "Tribunal de Justiça do Rio Grande do Sul",
+      "ato_normativo": "Ato nº 05/2025 – Órgão Especial",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa (segunda após páscoa)", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJRR": {
+      "nome": "Tribunal de Justiça de Roraima",
+      "ato_normativo": "Portaria TJRR/PR nº 1558/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJRO": {
+      "nome": "Tribunal de Justiça de Rondônia",
+      "ato_normativo": "Ato nº 2579/2025 (alterado pelos Atos n. 2942/2025, n. 657/2026 e n. 782/2026)",
+      "recesso": { "inicio": "2026-12-20", "fim": "2027-01-06" },
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal – Ano Novo", "tipo": "feriado_nacional" },
+        { "data": "2026-01-02", "descricao": "Ponto Facultativo (Ano Novo na 5ª feira)", "tipo": "ponto_facultativo" },
+        { "data": "2026-01-04", "descricao": "Criação e Instalação do Estado de Rondônia", "tipo": "feriado_estadual_RO" },
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Quinta-feira Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado_nacional" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo (véspera Tiradentes)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado_nacional" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalhador", "tipo": "feriado_nacional" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado_nacional" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo (emenda Corpus Christi)", "tipo": "ponto_facultativo" },
+        { "data": "2026-07-20", "descricao": "Dia do Trabalhador da Justiça Estadual (Lei n. 6.347/2026)", "tipo": "ponto_facultativo" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado_nacional" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado_nacional" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado_nacional" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado_nacional" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado_nacional" },
+        { "data": "2026-12-08", "descricao": "Nossa Senhora da Conceição / Dia da Justiça", "tipo": "feriado" },
+        { "data": "2026-12-20", "descricao": "Recesso Forense", "tipo": "recesso" },
+        { "data": "2026-12-25", "descricao": "Natal", "tipo": "feriado_nacional" },
+        { "data": "2026-12-31", "descricao": "Véspera de Ano Novo (ponto facultativo)", "tipo": "ponto_facultativo" }
+      ]
+    },
+    "TJSC": {
+      "nome": "Tribunal de Justiça de Santa Catarina",
+      "ato_normativo": "Resolução GP n. 01/1985",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-05", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJSP": {
+      "nome": "Tribunal de Justiça de São Paulo",
+      "ato_normativo": "Provimento CSM nº 2.813/2025",
+      "feriados_especificos": [
+        { "data": "2026-01-01", "descricao": "Confraternização Universal", "tipo": "feriado" },
+        { "data": "2026-01-25", "descricao": "Aniversário de São Paulo", "tipo": "feriado_municipal_SP" },
+        { "data": "2026-02-16", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-17", "descricao": "Carnaval (suspensão expediente)", "tipo": "suspensao_expediente" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (início atendimento às 13h)", "tipo": "expediente_parcial" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Suspensão de expediente (emenda Tiradentes)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalho", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Suspensão de expediente (emenda Corpus Christi)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-07-09", "descricao": "Revolução Constitucionalista – SP", "tipo": "feriado_estadual_SP" },
+        { "data": "2026-07-10", "descricao": "Suspensão de expediente (emenda 09/07)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos (transferido para 10/08)", "tipo": "feriado" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido de 28/10)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-07", "descricao": "Suspensão de expediente (véspera Dia da Justiça)", "tipo": "suspensao_expediente_compensacao" },
+        { "data": "2026-12-08", "descricao": "Dia da Justiça / Padroeira", "tipo": "feriado" }
+      ]
+    },
+    "TJSE": {
+      "nome": "Tribunal de Justiça de Sergipe",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-18", "descricao": "Quarta-Feira de Cinzas (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-02", "descricao": "Semana Santa (ponto facultativo)", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-03", "descricao": "Sexta-Feira Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" }
+      ]
+    },
+    "TJTO": {
+      "nome": "Tribunal de Justiça do Tocantins",
+      "ato_normativo": "Portaria nº 3741/2025",
+      "feriados_especificos": [
+        { "data": "2026-02-16", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-02-17", "descricao": "Carnaval", "tipo": "feriado" },
+        { "data": "2026-04-01", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-02", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-03", "descricao": "Semana Santa", "tipo": "feriado" },
+        { "data": "2026-04-20", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-04-21", "descricao": "Tiradentes", "tipo": "feriado" },
+        { "data": "2026-05-01", "descricao": "Dia do Trabalhador", "tipo": "feriado" },
+        { "data": "2026-06-04", "descricao": "Corpus Christi", "tipo": "feriado" },
+        { "data": "2026-06-05", "descricao": "Ponto Facultativo", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-10", "descricao": "Ponto Facultativo (emenda 11/08)", "tipo": "ponto_facultativo" },
+        { "data": "2026-08-11", "descricao": "Criação dos Cursos Jurídicos", "tipo": "feriado" },
+        { "data": "2026-08-15", "descricao": "Dia do Senhor do Bonfim – Padroeiro do Tocantins (Lei nº 4.509/2024)", "tipo": "feriado_estadual_TO" },
+        { "data": "2026-09-07", "descricao": "Independência do Brasil", "tipo": "feriado" },
+        { "data": "2026-09-08", "descricao": "Nossa Senhora da Natividade – Padroeira do Tocantins", "tipo": "feriado_estadual_TO" },
+        { "data": "2026-10-05", "descricao": "Criação do Estado do Tocantins", "tipo": "feriado_estadual_TO" },
+        { "data": "2026-10-12", "descricao": "Nossa Senhora Aparecida", "tipo": "feriado" },
+        { "data": "2026-10-30", "descricao": "Dia do Servidor Público (transferido de 28/10)", "tipo": "feriado" },
+        { "data": "2026-11-02", "descricao": "Finados", "tipo": "feriado" },
+        { "data": "2026-11-15", "descricao": "Proclamação da República", "tipo": "feriado" },
+        { "data": "2026-11-20", "descricao": "Consciência Negra", "tipo": "feriado" },
+        { "data": "2026-12-18", "descricao": "Dia da Justiça (transferido de 08/12)", "tipo": "feriado" }
+      ],
+      "feriados_municipais_Palmas": [
+        { "data": "2026-03-19", "descricao": "Padroeiro de Palmas", "tipo": "feriado_municipal" },
+        { "data": "2026-05-20", "descricao": "Aniversário da cidade de Palmas", "tipo": "feriado_municipal" }
+      ]
+    }
+  }
+}
