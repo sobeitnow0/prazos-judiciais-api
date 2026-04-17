@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "versao": "1.0.0",
+    "ultima_atualizacao": "2026-04-17T12:00:00Z",
+    "descricao": "Base oficial de feriados forenses, suspensões e pontos facultativos dos Tribunais e Feriados Nacionais/Estaduais"
+  },
+  "tribunais": {
+    "Nacional": [
+      { "data_inicio": "12-20", "data_fim": "12-31", "nome": "Recesso Forense (Art. 220 CPC)", "tipo": "recesso", "recorrente": true },
+      { "data_inicio": "01-01", "data_fim": "01-20", "nome": "Recesso Forense (Art. 220 CPC)", "tipo": "recesso", "recorrente": true },
+      { "data_inicio": "01-01", "data_fim": "01-01", "nome": "Confraternização Universal", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "04-21", "data_fim": "04-21", "nome": "Tiradentes", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "05-01", "data_fim": "05-01", "nome": "Dia do Trabalhador", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "08-11", "data_fim": "08-11", "nome": "Criação dos Cursos Jurídicos / Dia do Advogado e Magistrado", "tipo": "feriado_forense", "recorrente": true },
+      { "data_inicio": "09-07", "data_fim": "09-07", "nome": "Independência do Brasil", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "10-12", "data_fim": "10-12", "nome": "Nossa Senhora Aparecida", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "10-28", "data_fim": "10-28", "nome": "Dia do Servidor Público", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "11-01", "data_fim": "11-01", "nome": "Todos os Santos", "tipo": "feriado_forense", "recorrente": true },
+      { "data_inicio": "11-02", "data_fim": "11-02", "nome": "Finados", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "11-15", "data_fim": "11-15", "nome": "Proclamação da República", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "11-20", "data_fim": "11-20", "nome": "Dia Nacional de Zumbi e da Consciência Negra", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "12-08", "data_fim": "12-08", "nome": "Dia da Justiça", "tipo": "feriado_forense", "recorrente": true },
+      { "data_inicio": "12-25", "data_fim": "12-25", "nome": "Natal", "tipo": "feriado_nacional", "recorrente": true },
+      { "data_inicio": "2026-02-16", "data_fim": "2026-02-17", "nome": "Carnaval", "tipo": "feriado_nacional", "recorrente": false },
+      { "data_inicio": "2026-04-01", "data_fim": "2026-04-02", "nome": "Quarta e Quinta-feira Santa", "tipo": "feriado_forense", "recorrente": false },
+      { "data_inicio": "2026-04-03", "data_fim": "2026-04-03", "nome": "Paixão de Cristo", "tipo": "feriado_nacional", "recorrente": false },
+      { "data_inicio": "2026-06-04", "data_fim": "2026-06-04", "nome": "Corpus Christi", "tipo": "feriado_nacional", "recorrente": false }
+    ],
+    "STJ": [
+      { "data_inicio": "2026-02-18", "data_fim": "2026-02-18", "nome": "Quarta-feira de Cinzas", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TJSP": [
+      { "data_inicio": "07-09", "data_fim": "07-09", "nome": "Revolução Constitucionalista", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-02-18", "data_fim": "2026-02-18", "nome": "Quarta-feira de Cinzas", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-04-02", "data_fim": "2026-04-02", "nome": "Endoenças", "tipo": "feriado_forense", "recorrente": false },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Suspensão de Expediente (Ponte Tiradentes)", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Suspensão de Expediente (Ponte Corpus Christi)", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-07-10", "data_fim": "2026-07-10", "nome": "Suspensão de Expediente (Ponte Rev. Constitucionalista)", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-12-07", "data_fim": "2026-12-07", "nome": "Suspensão de Expediente (Ponte Dia da Justiça)", "tipo": "suspensao", "recorrente": false }
+    ],
+    "TRT1": [
+      { "data_inicio": "04-23", "data_fim": "04-23", "nome": "Dia de São Jorge", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Trabalho à Distância / Suspensão Presencial", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Trabalho à Distância / Suspensão Presencial", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Trabalho à Distância / Suspensão Presencial", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-12-07", "data_fim": "2026-12-07", "nome": "Trabalho à Distância / Suspensão Presencial", "tipo": "suspensao", "recorrente": false }
+    ],
+    "TRT5": [
+      { "data_inicio": "07-02", "data_fim": "07-02", "nome": "Independência da Bahia", "tipo": "feriado_estadual", "recorrente": true }
+    ],
+    "TRT8": [
+      { "data_inicio": "08-15", "data_fim": "08-15", "nome": "Adesão do Pará à Independência", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "09-13", "data_fim": "09-13", "nome": "Criação do Território Federal do Amapá", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-12-07", "data_fim": "2026-12-07", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false }
+    ],
+    "TRT17": [
+      { "data_inicio": "2026-04-13", "data_fim": "2026-04-13", "nome": "Nossa Senhora da Penha", "tipo": "feriado_estadual", "recorrente": false },
+      { "data_inicio": "2026-10-30", "data_fim": "2026-10-30", "nome": "Dia do Servidor Público (Transferido)", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TRT19": [
+      { "data_inicio": "06-24", "data_fim": "06-24", "nome": "São João", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "06-29", "data_fim": "06-29", "nome": "São Pedro", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "09-16", "data_fim": "09-16", "nome": "Emancipação Política de Alagoas", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-11-07", "data_fim": "2026-11-07", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TRT20": [
+      { "data_inicio": "06-24", "data_fim": "06-24", "nome": "São João", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "07-08", "data_fim": "07-08", "nome": "Independência de Sergipe", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-11-07", "data_fim": "2026-11-07", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TRT24": [
+      { "data_inicio": "10-11", "data_fim": "10-11", "nome": "Divisão do Estado de MS", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-02-18", "data_fim": "2026-02-18", "nome": "Suspensão expediente até 13h (Cinzas)", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false },
+      { "data_inicio": "2026-12-07", "data_fim": "2026-12-07", "nome": "Suspensão de Expediente", "tipo": "suspensao", "recorrente": false }
+    ],
+    "TRF5": [
+      { "data_inicio": "03-06", "data_fim": "03-06", "nome": "Data Magna de Pernambuco", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "06-24", "data_fim": "06-24", "nome": "São João", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-02-18", "data_fim": "2026-02-18", "nome": "Quarta-feira de Cinzas", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-06-23", "data_fim": "2026-06-23", "nome": "Véspera de São João", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-10-28", "data_fim": "2026-10-28", "nome": "Dia do Servidor Público", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TJPE": [
+      { "data_inicio": "03-06", "data_fim": "03-06", "nome": "Data Magna de Pernambuco", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "06-24", "data_fim": "06-24", "nome": "São João", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-06-22", "data_fim": "2026-06-22", "nome": "Corpus Christi (Transferido)", "tipo": "feriado_forense", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Dia dos Cursos Jurídicos (Antecipado)", "tipo": "feriado_forense", "recorrente": false },
+      { "data_inicio": "2026-10-30", "data_fim": "2026-10-30", "nome": "Dia do Servidor Público (Transferido)", "tipo": "feriado_forense", "recorrente": false }
+    ],
+    "TJPB": [
+      { "data_inicio": "08-05", "data_fim": "08-05", "nome": "Feriado Estadual (Data Magna da Paraíba)", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-04-24", "data_fim": "2026-04-24", "nome": "Transferência de Ponto Facultativo (20/04)", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-05-29", "data_fim": "2026-05-29", "nome": "Transferência de Ponto Facultativo (05/06)", "tipo": "ponto_facultativo", "recorrente": false }
+    ],
+    "TJTO": [
+      { "data_inicio": "09-08", "data_fim": "09-08", "nome": "Nossa Senhora da Natividade - Padroeira do Tocantins", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "10-05", "data_fim": "10-05", "nome": "Criação do Estado do Tocantins", "tipo": "feriado_estadual", "recorrente": true },
+      { "data_inicio": "2026-04-20", "data_fim": "2026-04-20", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-06-05", "data_fim": "2026-06-05", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-08-10", "data_fim": "2026-08-10", "nome": "Ponto Facultativo", "tipo": "ponto_facultativo", "recorrente": false },
+      { "data_inicio": "2026-10-30", "data_fim": "2026-10-30", "nome": "Dia do Servidor Público (Transferido)", "tipo": "feriado_forense", "recorrente": false },
+      { "data_inicio": "2026-12-18", "data_fim": "2026-12-18", "nome": "Dia da Justiça (Transferido)", "tipo": "feriado_forense", "recorrente": false }
+    ]
+  }
+}
